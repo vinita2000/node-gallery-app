@@ -1,0 +1,20 @@
+<h1>Welcome</h1>
+
+<form action="/user/upload-image" method="post" enctype="multipart/form-data" id="fileUploadForm">
+  <input type="file" name="avatar" class="inputField"/><br>
+  <input type="submit" name="Submit" class="btn"/>
+</form>
+
+
+{{!-- <img src="https://gallery-vinita.s3.ap-south-1.amazonaws.com/PIC.jpeg"> --}}
+<div class="outer">
+    <div class="outer2" style="width: 100%">
+        <button class="btn" type="button" target="gallery">Gallery</button><br>
+        <button class="btn" type="button" target="folders">Folders</button><br>
+        <button class="btn" type="button" target="favourites">Favourites</button><br>
+    </div>
+    <div class="result">
+    </div>
+</div>
+
+<script src="/js/home.js"></script>
